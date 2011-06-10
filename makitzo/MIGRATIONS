@@ -1,0 +1,16 @@
+Create migration
+    - Simple code to create dir + requisite files
+    
+Run migrations
+    - Load list of local migrations
+    - For each target host
+        - connect
+        - read list of applied migrations
+    - Work out which migrations need to be applied based on host/applied migrations
+    - Apply each migration
+    
+    - Problem: migration should look like SSH::Session so we get same helpers
+    
+    - After running migration code, mark as done.
+    
+    
