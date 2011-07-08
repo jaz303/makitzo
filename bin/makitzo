@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'maktizo'
+require 'makitzo'
 
 Makitzo::CLI.new.run(ARGV)
