@@ -1,0 +1,22 @@
+makitzo
+=======
+
+&copy; 2011 Jason Frame [ [jason@onehackoranother.com](mailto:jason@onehackoranother.com) / [@jaz303](http://twitter.com/jaz303) ]  
+Released under the MIT License.
+
+makitzo is a remote-host Swiss army knife and has been battle-tested in an environment with ~150 nodes.
+
+Feature list:
+
+* Ruby configuration DSL
+* host migrations
+* key/value store for centralised storage of per-host config data, with pluggable backends
+* "helper" system for defining remote commands in Ruby code
+* run any command on a subset of defined hosts via SSH
+* compare output of commands across multiple hosts
+    
+Installation:
+
+    $ gem install makitzo
+    
+More documentation coming later!
