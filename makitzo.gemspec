@@ -62,6 +62,7 @@ Gem::Specification.new do |s|
     "lib/makitzo/world/named_entity.rb",
     "lib/makitzo/world/query.rb",
     "lib/makitzo/world/role.rb",
+    "makitzo.gemspec",
     "templates/migration.erb",
     "test/helper.rb",
     "test/test_makitzo.rb"
